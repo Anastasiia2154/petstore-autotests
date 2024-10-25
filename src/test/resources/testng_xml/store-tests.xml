@@ -6,7 +6,7 @@
     </listeners>
     <test name="Store component tests">
         <packages>
-            <package name="tests.storeTests"/>
+            <package name="tests"/>
         </packages>
     </test>
 </suite>

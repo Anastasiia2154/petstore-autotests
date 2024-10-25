@@ -1,4 +1,4 @@
-package tests.storeTests;
+package tests;
 
 import clients.StoreClient;
 import org.testng.annotations.DataProvider;
