@@ -15,9 +15,9 @@ project-root
 │
 ├── src
 │   └── main
-│       └── java                      # Contains the main application code.
-│           └── clients                # API client classes for interacting with the Petstore.
-│           └── pojo                   # Java Objects (POJOs) representing data models.
+│       └── java                       # Contains the main application code.
+│           ├── clients                # API client classes for interacting with the Petstore.
+│           ├── pojo                   # Java Objects (POJOs) representing data models.
 │           └── config                 # Configuration classes for logging and other settings.
 │
 └── src
@@ -25,7 +25,7 @@ project-root
         └── java                       # Contains test code for testing the application.
             └── tests                  # Test classes organized by functionality.
 │
-└── utils                               # Utility classes for common functionalities.
+├── utils                               # Utility classes for common functionalities.
 │
 └── resources                           # Resource files used in the project.
     └── testng_xml                     # XML configuration files for TestNG.
