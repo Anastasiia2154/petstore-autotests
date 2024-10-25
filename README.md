@@ -63,7 +63,9 @@ Check that testng.xml is correctly configured to use ReportNG as the listener.
 
 ## Running Tests
 To run the tests, use the following Maven command from the project root directory:
+```
 mvn clean test
+```
 
 ## Viewing Test Reports
 After running the tests, an HTML report is generated in the target/surefire-reports/html directory.
