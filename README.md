@@ -1,3 +1,4 @@
+## Petstore autotests Project
 
 This project is designed to perform automated API testing using Java, TestNG, and Rest Assured. The tests include validation for different endpoints, covering both positive and negative scenarios. The project uses ReportNG for HTML reporting, providing test results overview.
 
@@ -37,17 +38,18 @@ project-root
 - **Java Development Kit (JDK)**: Version 11 or later.
 - **Apache Maven**: Version 3.6+.
 - **Git**: Version control to clone the project.
-
 ## Installation and Setup
 Step 1: Clone the Repository
 Clone the project from GitHub:
-```bash
+```
 git clone your-repo-url
 cd project-root
+```
 
 Step 2: Build the Project**
+```
 mvn clean install
-
+```
 ## Configurations
 Log4j Logging
 The project uses Log4j for logging, configured in the log4j.properties file. You can customize logging levels and output formats in src/test/resources/log4j.properties.
